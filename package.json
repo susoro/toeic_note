@@ -1,0 +1,22 @@
+{
+  "name": "toeic_note",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.24",
+    "framer-motion": "^12.29.2",
+    "lucide-react": "^0.563.0",
+    "next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.1.18"
+  }
+}

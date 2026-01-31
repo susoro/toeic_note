@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/globals.css"],"sourcesContent":["@import \"tailwindcss\";\n\n@theme {\n  --color-background: #EFEEEC;\n  --color-foreground: #1D1D1D;\n}\n\n:root {\n  --main-dark: #1D1D1D;\n  --bg-color: #EFEEEC;\n}\n\nbody {\n  background-color: var(--bg-color);\n  color: var(--main-dark);\n  margin: 0;\n  padding: 0;\n  overflow-x: hidden;\n}\n\n/* 폰트 설정: 시스템에 설치되어 있다면 local로 불러오고, 없으면 세리프/산세리프 기본 폰트 사용 */\n@font-face {\n  font-family: 'SangBleu Empire Trial';\n  src: local('SangBleu Empire Trial'), serif;\n  font-weight: bold;\n}\n\n@font-face {\n  font-family: 'SUIT';\n  src: local('SUIT'), sans-serif;\n}\n"],"names":[],"mappings":"AAEA;;;;AAKA;;;;;AAKA;;;;;;;;AASA;;;;;;AAMA"}}]
+}

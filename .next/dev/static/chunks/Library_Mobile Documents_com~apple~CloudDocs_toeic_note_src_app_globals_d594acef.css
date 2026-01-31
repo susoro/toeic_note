@@ -1,0 +1,27 @@
+/* [project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/globals.css [app-client] (css) */
+:root {
+  --main-dark: #1d1d1d;
+  --bg-color: #efeeec;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #1d1d1d;
+  flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  background-color: #efeeec !important;
+}
+
+@font-face {
+  font-family: SangBleu Empire Trial;
+  src: local("SangBleu Empire Trial"), serif;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=Library_Mobile%20Documents_com~apple~CloudDocs_toeic_note_src_app_globals_d594acef.css.map*/
