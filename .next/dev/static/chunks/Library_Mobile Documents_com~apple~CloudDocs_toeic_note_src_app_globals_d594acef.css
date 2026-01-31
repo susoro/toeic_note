@@ -24,4 +24,9 @@ body {
   font-weight: bold;
 }
 
+input:focus {
+  outline-offset: -1px;
+  outline: 2px solid #7d8471 !important;
+}
+
 /*# sourceMappingURL=Library_Mobile%20Documents_com~apple~CloudDocs_toeic_note_src_app_globals_d594acef.css.map*/

@@ -6,6 +6,8 @@ import { useParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, Plus, MoreVertical, Edit2, Trash2 } from "lucide-react";
 
+import Link from "next/link";
+
 interface Folder {
   id: string;
   name: string;
@@ -134,7 +136,10 @@ export default function SectionPage() {
           <div key={folder.id} style={{ position: 'relative', textAlign: 'center' }}>
             <div style={{ position: 'relative', display: 'inline-block' }}>
               {/* 폴더 아이콘 (이미지 파일 사용) */}
-              <div style={{ position: 'relative', width: '80px', height: '80px' }}>
+              <div 
+                onClick={() => router.push(`/section/${id}/folder/${folder.id}`)}
+                style={{ position: 'relative', width: '80px', height: '80px', cursor: 'pointer' }}
+              >
                 <Image
                   src="/icons/icon 1.png"
                   alt="folder icon"
@@ -143,45 +148,75 @@ export default function SectionPage() {
                 />
               </div>
               
-              {/* 메뉴 버튼 제거됨 */}
+              {/* 메뉴 버튼 (우클릭 대신 작은 버튼 제공) */}
+              <button 
+                onClick={(e) => { e.stopPropagation(); setMenuOpen(menuOpen === folder.id ? null : folder.id); }}
+                style={{ 
+                  position: 'absolute', 
+                  top: '-5px', 
+                  right: '-5px',
+                  background: 'white',
+                  border: '1px solid #ddd',
+                  borderRadius: '50%',
+                  width: '24px',
+                  height: '24px',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  zIndex: 10
+                }}
+              >
+                <MoreVertical size={14} color="#1D1D1D" />
+              </button>
               
               {/* 컨텍스트 메뉴 */}
               <AnimatePresence>
                 {menuOpen === folder.id && (
                   <motion.div 
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.95 }}
+                    initial={{ opacity: 0, scale: 0.95, y: -10 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.95, y: -10 }}
                     style={{ 
                       position: 'absolute',
-                      top: '24px',
-                      right: '0',
+                      top: '25px',
+                      left: '50%',
+                      transform: 'translateX(-50%)',
                       backgroundColor: 'white',
-                      borderRadius: '8px',
-                      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-                      zIndex: 20,
+                      borderRadius: '12px',
+                      boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
+                      zIndex: 100,
                       padding: '8px',
-                      minWidth: '100px'
+                      minWidth: '140px',
+                      border: '1px solid #E0E0E0'
                     }}
                   >
                     <button 
-                      onClick={() => { setIsEditing(folder.id); setMenuOpen(null); }}
+                      onClick={(e) => { e.stopPropagation(); setIsEditing(folder.id); setMenuOpen(null); }}
                       style={{ 
-                        display: 'flex', alignItems: 'center', gap: '8px', width: '100%', padding: '8px',
-                        border: 'none', background: 'none', cursor: 'pointer', fontSize: '14px', textAlign: 'left'
-                      }}
-                    >
-                      <Edit2 size={14} /> 이름 수정
-                    </button>
-                    <button 
-                      onClick={() => deleteFolder(folder.id)}
-                      style={{ 
-                        display: 'flex', alignItems: 'center', gap: '8px', width: '100%', padding: '8px',
+                        display: 'flex', alignItems: 'center', gap: '10px', width: '100%', padding: '10px 12px',
                         border: 'none', background: 'none', cursor: 'pointer', fontSize: '14px', textAlign: 'left',
-                        color: '#C05A3E'
+                        borderRadius: '8px', transition: 'background-color 0.2s'
                       }}
+                      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#F5F5F5'}
+                      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
                     >
-                      <Trash2 size={14} /> 삭제
+                      <Edit2 size={16} color="#1D1D1D" />
+                      <span style={{ color: '#1D1D1D', fontWeight: '500' }}>이름 수정</span>
+                    </button>
+                    <div style={{ height: '1px', backgroundColor: '#F0F0F0', margin: '4px 0' }} />
+                    <button 
+                      onClick={(e) => { e.stopPropagation(); deleteFolder(folder.id); }}
+                      style={{ 
+                        display: 'flex', alignItems: 'center', gap: '10px', width: '100%', padding: '10px 12px',
+                        border: 'none', background: 'none', cursor: 'pointer', fontSize: '14px', textAlign: 'left',
+                        borderRadius: '8px', transition: 'background-color 0.2s'
+                      }}
+                      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#FFF5F5'}
+                      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                    >
+                      <Trash2 size={16} color="#C05A3E" />
+                      <span style={{ color: '#C05A3E', fontWeight: '500' }}>삭제</span>
                     </button>
                   </motion.div>
                 )}
@@ -196,6 +231,7 @@ export default function SectionPage() {
                   defaultValue={folder.name}
                   onBlur={(e) => renameFolder(folder.id, e.target.value)}
                   onKeyDown={(e) => e.key === 'Enter' && renameFolder(folder.id, e.currentTarget.value)}
+                  onClick={(e) => e.stopPropagation()}
                   style={{ 
                     width: '100px', textAlign: 'center', border: '1px solid #7D8471', 
                     borderRadius: '4px', padding: '2px', fontSize: '12px' 

@@ -14,6 +14,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents
 var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__ = __turbopack_context__.i("[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/node_modules/lucide-react/dist/esm/icons/arrow-left.js [app-client] (ecmascript) <export default as ArrowLeft>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__ = __turbopack_context__.i("[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/node_modules/lucide-react/dist/esm/icons/plus.js [app-client] (ecmascript) <export default as Plus>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ellipsis$2d$vertical$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MoreVertical$3e$__ = __turbopack_context__.i("[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/node_modules/lucide-react/dist/esm/icons/ellipsis-vertical.js [app-client] (ecmascript) <export default as MoreVertical>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pen$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Edit2$3e$__ = __turbopack_context__.i("[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/node_modules/lucide-react/dist/esm/icons/pen.js [app-client] (ecmascript) <export default as Edit2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__ = __turbopack_context__.i("[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/node_modules/lucide-react/dist/esm/icons/trash-2.js [app-client] (ecmascript) <export default as Trash2>");
 ;
@@ -153,12 +154,12 @@ function SectionPage() {
                             color: "#1D1D1D"
                         }, void 0, false, {
                             fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                            lineNumber: 112,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                        lineNumber: 102,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -172,13 +173,13 @@ function SectionPage() {
                         children: sectionTitle
                     }, void 0, false, {
                         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                        lineNumber: 114,
+                        lineNumber: 116,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                lineNumber: 96,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -203,10 +204,12 @@ function SectionPage() {
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            onClick: ()=>router.push(`/section/${id}/folder/${folder.id}`),
                                             style: {
                                                 position: 'relative',
                                                 width: '80px',
-                                                height: '80px'
+                                                height: '80px',
+                                                cursor: 'pointer'
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                 src: "/icons/icon 1.png",
@@ -217,117 +220,199 @@ function SectionPage() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 143,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                            lineNumber: 137,
+                                            lineNumber: 139,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: (e)=>{
+                                                e.stopPropagation();
+                                                setMenuOpen(menuOpen === folder.id ? null : folder.id);
+                                            },
+                                            style: {
+                                                position: 'absolute',
+                                                top: '-5px',
+                                                right: '-5px',
+                                                background: 'white',
+                                                border: '1px solid #ddd',
+                                                borderRadius: '50%',
+                                                width: '24px',
+                                                height: '24px',
+                                                cursor: 'pointer',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                zIndex: 10
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$ellipsis$2d$vertical$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MoreVertical$3e$__["MoreVertical"], {
+                                                size: 14,
+                                                color: "#1D1D1D"
+                                            }, void 0, false, {
+                                                fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                                lineNumber: 170,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                            lineNumber: 152,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
                                             children: menuOpen === folder.id && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                                 initial: {
                                                     opacity: 0,
-                                                    scale: 0.95
+                                                    scale: 0.95,
+                                                    y: -10
                                                 },
                                                 animate: {
                                                     opacity: 1,
-                                                    scale: 1
+                                                    scale: 1,
+                                                    y: 0
                                                 },
                                                 exit: {
                                                     opacity: 0,
-                                                    scale: 0.95
+                                                    scale: 0.95,
+                                                    y: -10
                                                 },
                                                 style: {
                                                     position: 'absolute',
-                                                    top: '24px',
-                                                    right: '0',
+                                                    top: '25px',
+                                                    left: '50%',
+                                                    transform: 'translateX(-50%)',
                                                     backgroundColor: 'white',
-                                                    borderRadius: '8px',
-                                                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
-                                                    zIndex: 20,
+                                                    borderRadius: '12px',
+                                                    boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
+                                                    zIndex: 100,
                                                     padding: '8px',
-                                                    minWidth: '100px'
+                                                    minWidth: '140px',
+                                                    border: '1px solid #E0E0E0'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        onClick: ()=>{
+                                                        onClick: (e)=>{
+                                                            e.stopPropagation();
                                                             setIsEditing(folder.id);
                                                             setMenuOpen(null);
                                                         },
                                                         style: {
                                                             display: 'flex',
                                                             alignItems: 'center',
-                                                            gap: '8px',
+                                                            gap: '10px',
                                                             width: '100%',
-                                                            padding: '8px',
-                                                            border: 'none',
-                                                            background: 'none',
-                                                            cursor: 'pointer',
-                                                            fontSize: '14px',
-                                                            textAlign: 'left'
-                                                        },
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pen$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Edit2$3e$__["Edit2"], {
-                                                                size: 14
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                                                lineNumber: 174,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            " 이름 수정"
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                                        lineNumber: 167,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        onClick: ()=>deleteFolder(folder.id),
-                                                        style: {
-                                                            display: 'flex',
-                                                            alignItems: 'center',
-                                                            gap: '8px',
-                                                            width: '100%',
-                                                            padding: '8px',
+                                                            padding: '10px 12px',
                                                             border: 'none',
                                                             background: 'none',
                                                             cursor: 'pointer',
                                                             fontSize: '14px',
                                                             textAlign: 'left',
-                                                            color: '#C05A3E'
+                                                            borderRadius: '8px',
+                                                            transition: 'background-color 0.2s'
                                                         },
+                                                        onMouseEnter: (e)=>e.currentTarget.style.backgroundColor = '#F5F5F5',
+                                                        onMouseLeave: (e)=>e.currentTarget.style.backgroundColor = 'transparent',
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
-                                                                size: 14
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$pen$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Edit2$3e$__["Edit2"], {
+                                                                size: 16,
+                                                                color: "#1D1D1D"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 204,
                                                                 columnNumber: 23
                                                             }, this),
-                                                            " 삭제"
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    color: '#1D1D1D',
+                                                                    fontWeight: '500'
+                                                                },
+                                                                children: "이름 수정"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                                                lineNumber: 205,
+                                                                columnNumber: 23
+                                                            }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                                        lineNumber: 176,
+                                                        lineNumber: 194,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            height: '1px',
+                                                            backgroundColor: '#F0F0F0',
+                                                            margin: '4px 0'
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                                        lineNumber: 207,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        onClick: (e)=>{
+                                                            e.stopPropagation();
+                                                            deleteFolder(folder.id);
+                                                        },
+                                                        style: {
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            gap: '10px',
+                                                            width: '100%',
+                                                            padding: '10px 12px',
+                                                            border: 'none',
+                                                            background: 'none',
+                                                            cursor: 'pointer',
+                                                            fontSize: '14px',
+                                                            textAlign: 'left',
+                                                            borderRadius: '8px',
+                                                            transition: 'background-color 0.2s'
+                                                        },
+                                                        onMouseEnter: (e)=>e.currentTarget.style.backgroundColor = '#FFF5F5',
+                                                        onMouseLeave: (e)=>e.currentTarget.style.backgroundColor = 'transparent',
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__["Trash2"], {
+                                                                size: 16,
+                                                                color: "#C05A3E"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                                                lineNumber: 218,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    color: '#C05A3E',
+                                                                    fontWeight: '500'
+                                                                },
+                                                                children: "삭제"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                                                lineNumber: 219,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
+                                                        lineNumber: 208,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 176,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 174,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                    lineNumber: 135,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -339,6 +424,7 @@ function SectionPage() {
                                         defaultValue: folder.name,
                                         onBlur: (e)=>renameFolder(folder.id, e.target.value),
                                         onKeyDown: (e)=>e.key === 'Enter' && renameFolder(folder.id, e.currentTarget.value),
+                                        onClick: (e)=>e.stopPropagation(),
                                         style: {
                                             width: '100px',
                                             textAlign: 'center',
@@ -349,7 +435,7 @@ function SectionPage() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                        lineNumber: 194,
+                                        lineNumber: 229,
                                         columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         style: {
@@ -360,18 +446,18 @@ function SectionPage() {
                                         children: folder.name
                                     }, void 0, false, {
                                         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                        lineNumber: 205,
+                                        lineNumber: 241,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                    lineNumber: 192,
+                                    lineNumber: 227,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, folder.id, true, {
                             fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                            lineNumber: 134,
+                            lineNumber: 136,
                             columnNumber: 11
                         }, this)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Library$2f$Mobile__Documents$2f$com$7e$apple$7e$CloudDocs$2f$toeic_note$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -398,29 +484,29 @@ function SectionPage() {
                                 color: "#FFFFFF"
                             }, void 0, false, {
                                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                                lineNumber: 222,
+                                lineNumber: 258,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                            lineNumber: 215,
+                            lineNumber: 251,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                        lineNumber: 214,
+                        lineNumber: 250,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-                lineNumber: 126,
+                lineNumber: 128,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/section/[id]/page.tsx",
-        lineNumber: 89,
+        lineNumber: 91,
         columnNumber: 5
     }, this);
 }

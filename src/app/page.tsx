@@ -55,7 +55,8 @@ export default function Home() {
                 position: 'relative', 
                 aspectRatio: '1 / 1', 
                 overflow: 'hidden',
-                cursor: 'pointer'
+                cursor: 'pointer',
+                borderRadius: '8px' // 테두리 둥글게 추가
               }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}

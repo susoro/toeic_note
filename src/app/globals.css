@@ -1,8 +1,25 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #EFEEEC;
+  --color-foreground: #1D1D1D;
+}
+
 :root {
   --main-dark: #1D1D1D;
   --bg-color: #EFEEEC;
+}
+
+/* 폰트 설정 */
+@font-face {
+  font-family: 'SangBleu Empire Trial';
+  src: local('SangBleu Empire Trial'), serif;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'SUIT';
+  src: local('SUIT'), sans-serif;
 }
 
 * {
@@ -17,10 +34,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* 영문은 SangBleu, 한글은 SUIT 우선 적용 */
+  font-family: 'SangBleu Empire Trial', 'SUIT', sans-serif;
 }
 
-@font-face {
-  font-family: 'SangBleu Empire Trial';
-  src: local('SangBleu Empire Trial'), serif;
-  font-weight: bold;
+input, button, textarea, select {
+  font-family: 'SangBleu Empire Trial', 'SUIT', sans-serif;
+}
+
+input:focus {
+  outline: 2px solid #7D8471 !important;
+  outline-offset: -1px;
 }

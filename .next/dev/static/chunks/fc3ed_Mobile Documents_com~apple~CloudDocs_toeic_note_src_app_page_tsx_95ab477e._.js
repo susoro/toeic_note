@@ -115,7 +115,8 @@ function Home() {
                                 position: 'relative',
                                 aspectRatio: '1 / 1',
                                 overflow: 'hidden',
-                                cursor: 'pointer'
+                                cursor: 'pointer',
+                                borderRadius: '8px' // 테두리 둥글게 추가
                             },
                             whileHover: {
                                 scale: 1.05
@@ -134,7 +135,7 @@ function Home() {
                                 priority: section.id <= 6
                             }, void 0, false, {
                                 fileName: "[project]/Library/Mobile Documents/com~apple~CloudDocs/toeic_note/src/app/page.tsx",
-                                lineNumber: 63,
+                                lineNumber: 64,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
